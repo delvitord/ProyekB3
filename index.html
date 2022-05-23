@@ -25,6 +25,12 @@
     
     <script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+	
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -329,13 +335,18 @@
 
 		</div>	<!-- /container -->
 
-		<!-- ==== BLOG ==== -->
+		<!-- ==== VISUALISASI DATA ==== -->
 		<div class="container" id="visualization" name="visualization">
 			<br>
 				<div class="row white">
 					<h1 class="fade-down centered">VISUALISASI DATA</h1>
 					<hr class="fade-down title-mb">
 				</div><!-- /row -->
+				<canvas id= myChart1></canvas>
+				<canvas id= myChart2></canvas>
+				<canvas id= myChart3></canvas>
+				<canvas id= myChart4></canvas>
+				<canvas id= myChart5></canvas>
 				<h2 class="fade-down centered">PERUSAHAAN YANG PALING SERING MENANG TENDER</h2>
 				  <style type="text/css">
 					.tg  {border-collapse:collapse;border-spacing:0;}
@@ -993,5 +1004,10 @@
 	<script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/init.js"></script>
+	<script type="text/javascript" src="js/Chart1.js"></script>
+	<script type="text/javascript" src="js/Chart2.js"></script>
+	<script type="text/javascript" src="js/Chart3.js"></script>
+	<script type="text/javascript" src="js/Chart4.js"></script>
+	<script type="text/javascript" src="js/Chart5.js"></script>
   </body>
 </html>
